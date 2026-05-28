@@ -36,7 +36,13 @@
     "@changesets/cli": "2.30.0",
     "turbo": "2.5.8",
     "typescript": "6.0.2",
-    "vite-plus": "0.1.15"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1703"
+  },
+  "overrides": {
+    "@voidzero-dev/vite-plus-core": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8",
+    "@voidzero-dev/vite-plus-prompts": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@d0b407c85b560c2470395176c9f1c838b5ca8af8",
+    "@voidzero-dev/vite-plus-test": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   },
   "packageManager": "bun@1.3.6"
 }
