@@ -55,7 +55,6 @@
     "@faker-js/faker": "10.4.0",
     "@types/node": "25.5.0",
     "@xmldom/xmldom": "0.9.9",
-    "fflate": "0.8.2",
-    "vitest": "4.1.2"
+    "fflate": "0.8.2"
   }
 }
