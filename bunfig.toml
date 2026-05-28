@@ -1,2 +1,28 @@
 [install]
 linker = "hoisted"
+minimumReleaseAge = 3600
+minimumReleaseAgeExcludes = [
+  "vite-plus",
+  "@voidzero-dev/vite-plus-core",
+  "@voidzero-dev/vite-plus-test",
+  "@voidzero-dev/vite-plus-prompts",
+  "@voidzero-dev/vite-plus-darwin-arm64",
+  "@voidzero-dev/vite-plus-darwin-x64",
+  "@voidzero-dev/vite-plus-linux-arm-gnueabihf",
+  "@voidzero-dev/vite-plus-linux-arm64-gnu",
+  "@voidzero-dev/vite-plus-linux-arm64-musl",
+  "@voidzero-dev/vite-plus-linux-ppc64-gnu",
+  "@voidzero-dev/vite-plus-linux-s390x-gnu",
+  "@voidzero-dev/vite-plus-linux-x64-gnu",
+  "@voidzero-dev/vite-plus-linux-x64-musl",
+  "@voidzero-dev/vite-plus-win32-arm64-msvc",
+  "@voidzero-dev/vite-plus-win32-ia32-msvc",
+  "@voidzero-dev/vite-plus-win32-x64-msvc",
+  "@voidzero-dev/vite-plus-android-arm64",
+  "@voidzero-dev/vite-plus-freebsd-x64",
+  "oxlint",
+  "oxfmt",
+  "oxlint-tsgolint",
+  "@oxc-project/*",
+  "@oxlint/*",
+]
