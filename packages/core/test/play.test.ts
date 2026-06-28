@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { faker } from "@faker-js/faker";
-import { describe, it } from "vitest";
+import { describe, it } from "vite-plus/test";
 import { createExcelSchema, createWorkbook } from "../src";
 
 describe("should generate the play excel file", () => {
